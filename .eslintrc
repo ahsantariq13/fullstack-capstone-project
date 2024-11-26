@@ -1,0 +1,24 @@
+{
+    "env": {
+      "node": true,
+      "es2021": true,
+      "mocha": true
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": "warn",
+      "comma-dangle": ["error", "never"],
+      "quotes": ["error", "single"],
+      "max-len": ["warn", { "code": 100 }],
+      "indent": ["error", 2],
+      "semi": ["error", "always"],
+      "no-trailing-spaces": "error",
+      "camelcase": "error",
+      "no-var": "error",
+      "prefer-const": "error"
+    }
+  }
